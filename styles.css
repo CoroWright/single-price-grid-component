@@ -1,0 +1,57 @@
+:root {
+
+--bgcard-light-font-color-cyan: hsl(179, 62%, 46%);
+--bgcard-dark-cyan: hsl(179, 40%, 55%);
+--bg-light-gray: hsl(204, 43%, 93%); 
+
+--h2-font-color: hsl(179, 62%, 43%);
+--p-1-font-color: hsl(71, 73%, 54%);
+--p-2-grayish-blue: hsl(218, 22%, 67%);
+
+--button-color: hsl(71, 73%, 54%);
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--bg-light-gray);
+    color: #ffff;
+}
+
+.flow-margin {
+    margin: 1.5rem;
+}
+
+.bg-color-card-1 {
+    background-color: #ffff;
+}
+.bg-color-card-2 {
+    background-color: var(--bgcard-dark-cyan);
+}
+.bg-color-card-3 {
+    background-color: var(--bgcard-light-font-color-cyan);
+}
+
+.color-h2 {
+    color: var(--h2-font-color);
+}
+
+.color-p-1 {
+    color: var(--p-1-font-color);
+}
+
+.color-p-2 {
+    color: var(--p-2-grayish-blue);
+}
+
+.button {
+    background-color: var(--button-color);
+    color: white;
+}
