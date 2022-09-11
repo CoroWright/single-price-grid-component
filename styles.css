@@ -29,6 +29,18 @@ body {
     margin: 1.5rem;
 }
 
+.flow-padding {
+    padding: 1.5rem;
+}
+
+.flow-padding-card {
+    padding-bottom: 1.5rem;
+}
+
+.line-height {
+    line-height: 1.9;
+}
+
 .bg-color-card-1 {
     background-color: #ffff;
 }
@@ -51,7 +63,16 @@ body {
     color: var(--p-2-grayish-blue);
 }
 
+span {
+    font-size: 4ch;
+    
+}
+
 .button {
     background-color: var(--button-color);
     color: white;
+    width: 100%;
+    padding: 1em 0;
+    border: none;
+    border-radius: .5rem;
 }
