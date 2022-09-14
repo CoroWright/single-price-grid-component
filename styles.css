@@ -23,6 +23,23 @@ body {
     font-family: 'Karla', sans-serif;
     background-color: var(--bg-light-gray);
     color: #ffff;
+
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+@media (min-width: 62.5em) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 700px;
+    }
+
+    .community {
+        grid-column: 1 / 3;
+    }
 }
 
 .flow-margin {
@@ -63,9 +80,14 @@ body {
     color: var(--p-2-grayish-blue);
 }
 
+.price-permonth {
+    display: flex;
+    align-items: center;
+}
+
 span {
     font-size: 4ch;
-    
+    text-align: center;
 }
 
 .button {
